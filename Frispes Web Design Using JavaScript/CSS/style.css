@@ -1,0 +1,400 @@
+.container {
+  max-width: 900px !important;
+}
+
+.logo {
+  color: #10375c !important;
+}
+
+.signup-btn {
+  background-color: #ff5722 !important;
+}
+
+.login-text {
+  color: #ff5722;
+}
+
+.line {
+  width: 7%;
+  height: 0px;
+  border: 2px solid #222831;
+  opacity: 0.5;
+}
+@media (max-width: 767px) {
+  .line {
+    width: 10%;
+  }
+}
+
+.revolutionary {
+  color: #ff5722;
+}
+
+.head-text-font {
+  font-size: 52px;
+}
+.head-text-font .heading-text {
+  color: #10375c;
+}
+
+.check-arrow {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .event-spaces {
+    margin-left: -1rem;
+    padding-top: 1rem;
+  }
+}
+
+.flag {
+  margin-left: -3rem;
+}
+@media (min-width: 991px) {
+  .flag {
+    margin-left: 0rem;
+  }
+}
+
+.net-speed {
+  margin-left: 1rem;
+}
+@media (min-width: 991px) {
+  .net-speed {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .net-speed {
+    margin-left: 0rem;
+    padding-top: 1rem;
+  }
+}
+
+.community {
+  margin-left: 3rem;
+}
+@media (min-width: 991px) {
+  .community {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .community {
+    margin-left: 2rem;
+  }
+}
+
+.space-card {
+  position: relative;
+  left: 41%;
+  z-index: 1;
+}
+@media only screen and (min-device-width: 991px) and (max-device-width: 1024px) {
+  .space-card {
+    position: relative;
+    left: 20%;
+    z-index: 1;
+  }
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 991px) {
+  .space-card {
+    position: relative;
+    left: 30%;
+    z-index: 1;
+  }
+}
+@media (max-device-width: 767px) {
+  .space-card {
+    position: relative;
+    left: 0%;
+  }
+}
+.space-card .card {
+  background-color: #10375c !important;
+  border-radius: 0 !important;
+  position: relative;
+  padding: 0px !important;
+}
+.space-card .card select {
+  background-color: #0d2c4a;
+  border: none;
+}
+.space-card .card select option {
+  color: white;
+}
+.space-card .card .location {
+  padding-right: 5rem;
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 830px) {
+  .space-card .card .location {
+    padding-right: 3rem;
+  }
+}
+.space-card .card .type {
+  padding-right: 7rem;
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 830px) {
+  .space-card .card .type {
+    padding-right: 5rem;
+  }
+}
+.space-card .card .date {
+  padding-right: 8rem;
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 830px) {
+  .space-card .card .date {
+    padding-right: 6rem;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: red !important;
+}
+
+.GAP {
+  gap: 80px;
+}
+@media (max-width: 991px) {
+  .GAP {
+    gap: 40px;
+  }
+}
+.GAP .our-spaces {
+  color: #10375c;
+}
+
+.service-bg {
+  background-color: #10375c;
+  padding: 1rem;
+}
+.service-bg .frsipes-line {
+  width: 7%;
+  height: 0px;
+  border: 2px solid white;
+  opacity: 0.5;
+}
+
+.col-gap {
+  gap: 50px;
+}
+
+.lines-img {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.private-space {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+
+.private-text {
+  position: absolute;
+  top: 43%;
+  left: 5%;
+  text-align: center;
+  right: 5%;
+}
+
+.main-slider {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-device-width: 767px) {
+  .main-slider {
+    width: 79%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+}
+@media (max-device-width: 525px) {
+  .main-slider {
+    width: 75%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+}
+@media (max-device-width: 370px) {
+  .main-slider {
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+}
+.main-slider .slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.main-slider .first-slider-images {
+  flex: 0 0 300px;
+  width: 253px;
+}
+.main-slider .space-image {
+  height: 305px;
+}
+
+.out-facilities-line {
+  width: 7%;
+  height: 0px;
+  border: 1px solid black;
+}
+@media (max-width: 767px) {
+  .out-facilities-line {
+    width: 10%;
+  }
+}
+
+.all-facilities-text {
+  color: #10375c;
+}
+
+.text-hover:hover {
+  background-color: #ff5722;
+  color: white;
+}
+
+.frispes-gallery {
+  color: #10375c;
+}
+.frispes-gallery .frispes-line {
+  width: 7%;
+  height: 0px;
+  border: 2px solid #222831;
+  opacity: 0.5;
+}
+@media (max-width: 767px) {
+  .frispes-gallery .frispes-line {
+    width: 10%;
+  }
+}
+
+.frispes-text {
+  color: #10375c;
+}
+
+.who-use-frispes {
+  color: #10375c;
+}
+
+.logos {
+  width: 75%;
+}
+
+.card-review {
+  background-color: #10375c !important;
+  border-radius: 0 !important;
+}
+.card-review .review-text {
+  font-size: 12px;
+}
+.card-review .raymond {
+  padding-top: 2.7rem;
+}
+@media (max-width: 576px) {
+  .card-review .raymond {
+    padding-top: 3.8rem;
+  }
+}
+@media (max-width: 426px) {
+  .card-review .raymond {
+    padding-top: 2.9rem;
+  }
+}
+.card-review .berlian {
+  padding-top: 9.3rem;
+}
+@media (max-width: 767px) {
+  .card-review .berlian {
+    padding-top: 7.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .card-review .berlian {
+    padding-top: 9.5rem;
+  }
+}
+
+.see-more {
+  color: #ff5722;
+}
+
+.downward-arrow {
+  position: absolute;
+  top: 50%;
+  left: -4%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 991px) {
+  .downward-arrow {
+    position: absolute;
+    top: 50%;
+    left: -3%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+@media (max-width: 525px) {
+  .downward-arrow {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.member-section {
+  background-color: #10375c;
+}
+.member-section .member-line {
+  width: 15%;
+  height: 0px;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+@media (max-width: 767px) {
+  .member-section .member-line {
+    width: 10%;
+  }
+}
+.member-section .signupNow-btn {
+  background-color: #ff5722 !important;
+  padding: 0rem 5rem;
+}
+.member-section .human {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  background-color: #0d2c4a;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.event-insights {
+  background-color: #f8f8f8;
+}
+
+.slick-slide img {
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+  transform: scaleY(2);
+}/*# sourceMappingURL=style.css.map */

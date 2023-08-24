@@ -1,0 +1,345 @@
+$backgroundColor: #ff5722;
+$text-color: #ff5722;
+$dark-blue: #10375c;
+$breakpoints: (
+  "xs": 370px,
+  "sm": 525px,
+  "md": 767px,
+  "lg": 991px,
+  "xl": 1200px,
+);
+.container {
+  max-width: 900px !important;
+}
+.logo {
+  color: $dark-blue !important;
+}
+.signup-btn {
+  background-color: $backgroundColor !important;
+}
+.login-text {
+  color: $text-color;
+}
+.line {
+  width: 7%;
+  height: 0px;
+  border: 2px solid #222831;
+  opacity: 0.5;
+  @media (max-width: map-get($breakpoints,"md")) {
+    width: 10%;
+  }
+}
+.revolutionary {
+  color: $text-color;
+}
+.head-text-font {
+  font-size: 52px;
+  .heading-text {
+    color: $dark-blue;
+  }
+}
+.check-arrow {
+  position: absolute;
+  bottom: 0;
+}
+
+.event-spaces {
+  @media (max-width: 576px) {
+    margin-left: -1rem;
+    padding-top: 1rem;
+  }
+}
+.flag {
+  margin-left: -3rem;
+  @media (min-width: map-get($breakpoints,"lg")) {
+    margin-left: 0rem;
+  }
+}
+.net-speed {
+  margin-left: 1rem;
+  @media (min-width: map-get($breakpoints,"lg")) {
+    margin-left: 0rem;
+  }
+  @media (max-width: 576px) {
+    margin-left: 0rem;
+    padding-top: 1rem;
+  }
+}
+.community {
+  margin-left: 3rem;
+  @media (min-width: map-get($breakpoints,"lg")) {
+    margin-left: 0rem;
+  }
+  @media (max-width: 576px) {
+    margin-left: 2rem;
+    // padding-top: 1rem;
+  }
+}
+.space-card {
+  position: relative;
+  left: 41%;
+  z-index: 1;
+  @media only screen and (min-device-width: map-get($breakpoints,"lg")) and (max-device-width: 1024px) {
+    position: relative;
+    left: 20%;
+    z-index: 1;
+  }
+  @media only screen and (min-device-width: map-get($breakpoints,"md")) and (max-device-width: map-get($breakpoints,"lg")) {
+    position: relative;
+    left: 30%;
+    z-index: 1;
+  }
+  @media (max-device-width: map-get($breakpoints,"md")) {
+    position: relative;
+    left: 0%;
+  }
+  .card {
+    background-color: $dark-blue !important;
+    border-radius: 0 !important;
+    position: relative;
+    padding: 0px !important;
+    select {
+      background-color: #0d2c4a;
+      border: none;
+      option {
+        color: white;
+      }
+    }
+    .location {
+      padding-right: 5rem;
+      @media only screen and (min-device-width: map-get($breakpoints,"md")) and (max-device-width: 830px) {
+        padding-right: 3rem;
+      }
+    }
+    .type {
+      padding-right: 7rem;
+      @media only screen and (min-device-width: map-get($breakpoints,"md")) and (max-device-width: 830px) {
+        padding-right: 5rem;
+      }
+    }
+    .date {
+      padding-right: 8rem;
+      @media only screen and (min-device-width: map-get($breakpoints,"md")) and (max-device-width: 830px) {
+        padding-right: 6rem;
+      }
+    }
+  }
+}
+.carousel-indicators .active {
+  background-color: red !important;
+}
+.GAP {
+  gap: 80px;
+  @media (max-width: map-get($breakpoints,"lg")) {
+    gap: 40px;
+  }
+  .our-spaces {
+    color: $dark-blue;
+  }
+}
+.service-bg {
+  background-color: $dark-blue;
+  padding: 1rem;
+  .frsipes-line {
+    width: 7%;
+    height: 0px;
+    border: 2px solid white;
+    opacity: 0.5;
+  }
+}
+.col-gap {
+  gap: 50px;
+}
+.lines-img {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+.private-space {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  // right: 20%;
+}
+.private-text {
+  position: absolute;
+  top: 43%;
+  left: 5%;
+  text-align: center;
+  right: 5%;
+}
+.main-slider {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  @media (max-device-width: map-get($breakpoints,"md")) {
+    width: 79%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+  @media (max-device-width: map-get($breakpoints,"sm")) {
+    width: 75%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+  @media (max-device-width: map-get($breakpoints,"xs")) {
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+  }
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .first-slider-images {
+    flex: 0 0 300px;
+    width: 253px;
+  }
+  .space-image {
+    height: 305px;
+  }
+}
+.out-facilities-line {
+  width: 7%;
+  height: 0px;
+  border: 1px solid black;
+  @media (max-width: map-get($breakpoints,"md")) {
+    width: 10%;
+  }
+}
+.all-facilities-text {
+  color: $dark-blue;
+}
+.text-hover:hover {
+  background-color: $backgroundColor;
+  color: white;
+}
+.frispes-gallery {
+  color: $dark-blue;
+  .frispes-line {
+    width: 7%;
+    height: 0px;
+    border: 2px solid #222831;
+    opacity: 0.5;
+    @media (max-width: map-get($breakpoints,"md")) {
+      width: 10%;
+    }
+  }
+}
+.frispes-text {
+  color: $dark-blue;
+}
+.who-use-frispes {
+  color: $dark-blue;
+}
+.logos {
+  width: 75%;
+  // @media (max-width: map-get($breakpoints,"md")) {
+  // }
+}
+.card-review {
+  background-color: $dark-blue !important;
+  border-radius: 0 !important;
+  .review-text {
+    font-size: 12px;
+  }
+  .raymond {
+    padding-top: 2.7rem;
+    @media (max-width: 576px) {
+      padding-top: 3.8rem;
+    }
+    @media (max-width: 426px) {
+      padding-top: 2.9rem;
+    }
+  }
+  .berlian {
+    padding-top: 9.3rem;
+    @media (max-width: map-get($breakpoints,"md")) {
+      padding-top: 7.1rem;
+    }
+    @media (max-width: 320px) {
+      padding-top: 9.5rem;
+    }
+  }
+}
+.see-more {
+  color: $text-color;
+}
+.downward-arrow {
+  position: absolute;
+  top: 50%;
+  left: -4%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+  @media (max-width: map-get($breakpoints,"lg")) {
+    position: absolute;
+    top: 50%;
+    left: -3%;
+    transition: all 0.2s ease-in-out;
+  }
+  @media (max-width: map-get($breakpoints,"sm")) {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    transition: all 0.2s ease-in-out;
+  }
+  //   @media (max-width: 320px) {
+  //     position: absolute;
+  //     top: 50%;
+  //     left: 26%;
+  //     // right: 27%;
+  //   }
+}
+.member-section {
+  background-color: #10375c;
+  .member-line {
+    width: 15%;
+    height: 0px;
+    border: 2px solid white;
+    opacity: 0.3;
+    @media (max-width: map-get($breakpoints,"md")) {
+      width: 10%;
+    }
+  }
+  .signupNow-btn {
+    background-color: $backgroundColor !important;
+    padding: 0rem 5rem;
+  }
+  .human {
+    position: absolute;
+    bottom: 0;
+  }
+}
+.footer {
+  background-color: #0d2c4a;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.event-insights {
+  background-color: #f8f8f8;
+}
+
+.slick-slide img {
+  transition: all 0.4s ease-in-out;
+}
+.slick-center {
+  transform: scaleY(2);
+  // margin-left: -18rem;
+  // @media (min-width: map-get($breakpoints,"xl")) {
+  //   transform: scale(1.1);
+  //   margin-left: -24rem;
+  // }
+  // @media (max-width: map-get($breakpoints,"lg")) {
+  //   transform: scale(1);
+  //   margin-left: 0;
+  // }
+}

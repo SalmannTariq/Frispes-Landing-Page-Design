@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!---------------- Slick Slider CSS ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/slick.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/slick-theme.css" />
+    <title>Frispes</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section>
+        <div class="container pt-4">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo me-0" href="#">Frispes.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" href="#">Workspace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" href="#" tabindex="-1"
+                                    aria-disabled="true">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" href="#" tabindex="-1"
+                                    aria-disabled="true">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" href="#" tabindex="-1"
+                                    aria-disabled="true">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-3" href="#" tabindex="-1" aria-disabled="true">Contact
+                                    US</a>
+                            </li>
+                        </ul>
+                        <p class="mb-0 login-text me-3">Login</p>
+                        <button type="button" class="btn signup-btn rounded-0 text-white shadow">Sign up</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- Headings Text Section -->
+    <section class="pt-3">
+        <div class="container px-4">
+            <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                <p class="mb-0 pe-3">Introducing</p>
+                <p class="line rounded-3 mb-0"></p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="text-center text-lg-start head-text-font">
+                        <h1><span class="revolutionary">Revolutionary</span> <span class="heading-text">co-working space
+                                to ealize your innovation</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="mb-0 text-muted text-center text-lg-start pt-lg-0 pt-2">In frispes, we spearhead new
+                        initiatives and
+                        provide mentorship to a new
+                        startup, and<br>help grow their opportunities in key local,<br>regional and global markets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel and Find my space card section -->
+    <section class="pb-5">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+
+                    <div class="d-flex justify-content-center space-card py-lg-0 py-5">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body px-lg-0 py-lg-3 py-md-1">
+                                <h4 class="pt-lg-3 card-title text-white text-center mb-0"><b>Find your space now</b>
+                                </h4>
+                                <!--  -->
+                                <form class="text-center pt-lg-3 pt-2" action="#">
+                                    <select class="py-3  text-white fw-lighter location" name="languages" id="lang">
+                                        <option value="Malang, Indonesia">Malang, Indonesia</option>
+                                        <option value="London, UK">London, UK</option>
+                                        <option value="California, USA">California, USA</option>
+                                    </select>
+                                </form>
+                                <!--  -->
+                                <form class="text-center pt-lg-3 pt-2" action="#">
+                                    <select class="py-3 text-white  fw-lighter type" name="languages" id="lang">
+                                        <option value="Private Office">Private Office</option>
+                                        <option value="Private Office">Private Office</option>
+                                        <option value="Private Office">Private Office</option>
+                                    </select>
+                                </form>
+                                <!--  -->
+                                <form class="text-center pt-lg-3 pt-2" action="#">
+                                    <select class="py-3 text-white fw-lighter date" name="languages" id="lang">
+                                        <option value="9 Aug 2020">9 Aug 2020</option>
+                                        <option value="9 Aug 2020">9 Aug 2020</option>
+                                        <option value="9 Aug 2020">9 Aug 2020</option>
+                                    </select>
+                                </form>
+                                <!--  -->
+                                <div class="text-center pt-3">
+                                    <button type="button" class="btn signup-btn rounded-0 text-white shadow px-5">FIND
+                                        MY SPACE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CAROUSEL -->
+                <div class="col-md-8 p-0">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/first.svg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/first.svg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/first.svg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Spaces Section -->
+    <section class="py-5 position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div>
+                        <h2 class="all-facilities-text text-center text-lg-start">Our Spaces</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-center text-muted">Our space is designed to give you a different experience when
+                        working with
+                        your team or
+                        personally</p>
+                </div>
+                <div class="col-lg-3 d-flex align-items-end justify-content-lg-end justify-content-center">
+                    <button type="button" class="bg-transparent border-0 shadow-0 slide-prev-image"
+                        onclick="changeArrowSpace('prev')"> <img src="./images/leftArrow.svg" class="slide-prev-img" />
+                    </button>
+                    <button type="button" class="bg-transparent border-0 shadow-0 slide-next-image"
+                        onclick="changeArrowSpace('next')"> <img src="./images/rightArrow.png" class="slide-next-img" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Our Spaces Carousel -->
+        <div class="container">
+            <div class="space-slider">
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative our-space-carousel">
+                        <img src="./images/workingTeam.svg" class="w-100" alt="">
+
+                        <img src="./images/arrow.svg" class="check-arrow" alt="">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative our-space-carousel">
+                        <img src="./images/privateSpace.svg" class="w-100" alt="">
+                        <img src="./images/Lines.svg" class="lines-img" alt="">
+                        <h4 class="text-white private-space">Private Space</h4>
+                        <p class="text-white private-text">Comfortable space, Full speed wifi, Free coffe &
+                            Snack
+                            and many more</p>
+                        <img src="./images/arrow.svg" class="check-arrow" alt="">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative our-space-carousel">
+                        <img src="./images/workingMan.svg" class="w-100" alt="">
+
+                        <img src="./images/arrow.svg" class="check-arrow" alt="">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative our-space-carousel">
+                        <img src="./images/workingTeam.svg" class="w-100" alt="">
+
+                        <img src="./images/arrow.svg" class="check-arrow" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex flex-column col-gap pb-5 pb-md-0">
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                <img src="./images/meeting-room.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">500+</p>
+                                    <p class="mb-0 fw-lighter">Meeting rooms</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start event-spaces">
+                                <img src="./images/communities.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">100+</p>
+                                    <p class="mb-0 fw-lighter">Event Spaces</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center justify-content-center justify-content-lg-start flag">
+                                <img src="./images/Flag.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">60+</p>
+                                    <p class="mb-0 fw-lighter">Countries</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start net-speed">
+                                <img src="./images/wifi.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">500 Mbps</p>
+                                    <p class="mb-0 fw-lighter">Internet Speed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                <img src="./images/User.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">5K+</p>
+                                    <p class="mb-0 fw-lighter">Startup mentors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start community">
+                                <img src="./images/meeting-room.svg" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0">200+</p>
+                                    <p class="mb-0 fw-lighter">Communities inside</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-bg">
+                        <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                            <p class="mb-0 pe-3 text-white">Why Frispes</p>
+                            <p class="frsipes-line rounded-3 mb-0"></p>
+                        </div>
+                        <h3 class="text-white"><b>We revolutionize your workspace</b></h3>
+                        <p class="text-white">With a decade of insights and expertise, we're decided to
+                            reimagine
+                            co-working space,
+                            designed to help a new startup grow up and realize their ideas so they can give a
+                            positive
+                            impacts on many people</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- All Facilities are designed -->
+    <section class="pt-3">
+        <div class="container">
+            <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                <p class="mb-0 pe-3">Our Facilities</p>
+                <p class="out-facilities-line rounded-3 mb-0"></p>
+            </div>
+            <div>
+                <h1 class="all-facilities-text text-center text-lg-start">All facilities are designed to<br>meet
+                    all
+                    your needs</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5 d-flex flex-column align-items-center align-items-lg-start">
+                    <div class="p-3 text-hover" onclick="imageChange1()">
+                        <p class="mb-0">Spacious parking area</p>
+                    </div>
+                    <div class="p-3 text-hover" onclick="imageChange2()">
+                        <p class="mb-0">Comfortable spaces</p>
+                    </div>
+                    <div class="p-3 text-hover" onclick="imageChange3()">
+                        <p class="mb-0">Cozy cafe</p>
+                    </div>
+                    <div class="p-3 text-hover" onclick="imageChange4()">
+                        <p class="mb-0">Child playground</p>
+                    </div>
+                    <div class="p-3 text-hover" onclick="imageChange5()">
+                        <p class="mb-0">Outdoor spaces</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <dv>
+                        <img src="./images/cafe.svg" class="w-100 image-change" alt="">
+                    </dv>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Space gallery Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <p class="mb-0 pe-3 frispes-gallery">Frispes gallery</p>
+                        <p class="frispes-line rounded-3 mb-0"></p>
+                    </div>
+                    <div>
+                        <h3 class="frispes-text text-center text-lg-start">Immersive beautiful<br>co-working space
+                            gallery</h3>
+                    </div>
+                    <div class="col-lg-3 ms-lg-3 d-flex align-items-end justify-content-lg-end justify-content-center">
+                        <button type="button" class="bg-transparent border-0 shadow-0 space-prev-image"
+                            onclick="changeArrow('prev')"> <img src="./images/leftArrow.svg" class="slide-prev-img" />
+                        </button>
+                        <button type="button" class="bg-transparent border-0 shadow-0 space-next-image"
+                            onclick="changeArrow('next')"> <img src="./images/rightArrow.png" class="slide-next-img" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Space gallery slider -->
+        <div class="container-fluid pt-5">
+            <div class="space-gallery-slider">
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative">
+                        <img src="./images/cafe2.svg" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative">
+                        <img src="./images/cafe2.svg" class="w-100" alt="">
+
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative">
+                        <img src="./images/cafe2.svg" class="w-100" alt="">
+
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative">
+                        <img src="./images/cafe2.svg" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="position-relative">
+                        <img src="./images/cafe2.svg" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel & Who Use Frsipes -->
+    <section class="pt-5 pb-0">
+        <div class="container">
+            <h1 class="text-center who-use-frispes">Who uses Frispes?</h1>
+            <p class="text-center fw-lighter">brands, small bussiness, new startuo and inividuals</p>
+            <!-- Carousel -->
+            <div class="logos-slider py-5">
+                <div class="d-flex justify-content-center"><img src="./images/google.svg" class="logos" alt="">
+                </div>
+                <div class="d-flex justify-content-center"><img src="./images/tokopedia.svg" class="logos mt-2" alt="">
+                </div>
+                <div class="d-flex justify-content-center"><img src="./images/upwork.svg" class="logos mt-1" alt="">
+                </div>
+                <div class="d-flex justify-content-center"><img src="./images/icrosoft.svg" class="logos mt-2" alt="">
+                </div>
+                <div class="d-flex justify-content-center"><img src="./images/shopify.svg" class="logos" alt="">
+                </div>
+                <div class="d-flex justify-content-center"><img src="./images/stripe.svg" class="logos"
+                        style="margin-top: -0.4rem;" alt=""></div>
+                <div class="d-flex justify-content-center"><img src="./images/shopify.svg" class="logos" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Reviews Section -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <p class="mb-0 pe-3">Reviews</p>
+                        <p class="out-facilities-line rounded-3 mb-0"></p>
+                    </div>
+                    <div>
+                        <h1 class="all-facilities-text text-center text-lg-start">What our customers<br>are
+                            saying</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-end justify-content-lg-end justify-content-center">
+                    <button type="button" class="bg-transparent border-0 shadow-0 slide-prev-cards"> <img
+                            src="./images/leftArrow.svg" class="slide-prev-img" onclick="Prev()" />
+                    </button>
+                    <button type="button" class="bg-transparent border-0 shadow-0 slide-next-cards"> <img
+                            src="./images/rightArrow.png" class="slide-next-img" onclick="Next()" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Cards Carousel -->
+        <div class="container">
+            <div class="cards-slider">
+                <div class=" d-flex justify-content-center p-3">
+                    <div class="card card-review">
+                        <div class="card-body p-4">
+                            <p class="text-white review-text">Our team has been working at frispes for almost 2
+                                months
+                                because our
+                                office still closed.
+                                During working at frispes, we feel a new experience, we can feel working with a
+                                beautiful, modern, and comfortable space. And cozy cafe with high-speed internet
+                                in
+                                there. Thank you for frispes and team.</p>
+                            <img src="./images/pedro.svg" class="w-75 pt-4" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="card card-review">
+                        <div class="card-body p-4 pb-4">
+                            <p class="text-white review-text">The high-speed internet at frispes was so
+                                amazing. I
+                                can
+                                get best
+                                experience when running
+                                video call with my clients. Frispes has spacious and safe parking area, that’s
+                                what i
+                                need because i used to work as freelancer for a long time.</p>
+                            <img src="./images/raymond.svg" class="w-75 raymond" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="card card-review">
+                        <div class="card-body p-4 pb-4">
+                            <p class="text-white review-text">Just three words : Frispes is Awesome!</p>
+                            <img src="./images/Berlian.svg" class="w-75 berlian" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="card card-review">
+                        <div class="card-body p-4 pb-4">
+                            <p class="text-white review-text">The high-speed internet at frispes was so
+                                amazing. I
+                                can
+                                get best
+                                experience when running
+                                video call with my clients. Frispes has spacious and safe parking area, that’s
+                                what i
+                                need because i used to work as freelancer for a long time.</p>
+                            <img src="./images/raymond.svg" class="w-75 raymond" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Find your Answers -->
+    <section class=" py-5">
+        <div class="container">
+            <div>
+                <h1 class="text-center all-facilities-text">Find the answers to anything<br>you need in
+                    our Help Center</h1>
+            </div>
+            <!-- Cards -->
+            <div class="row pt-3">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card border-0 rounded-0 shadow p-3 position-relative"
+                        onmouseover="toggleCard(this, true)" onmouseout="toggleCard(this, false)">
+                        <div class="card-body">
+                            <p class="text-center">How do I know<br>if a space is available?</p>
+                        </div>
+                        <img src="./images/downwardArrow.svg" class="downward-arrow " alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-sm-0 pt-5 col-sm-6">
+                    <div class="card border-0 rounded-0 shadow p-3 position-relative"
+                        onmouseover="toggleCard(this, true)" onmouseout="toggleCard(this, false)">
+                        <div class="card-body">
+                            <p class="text-center">How do i book a<br>space?</p>
+                        </div>
+                        <img src="./images/downwardArrow.svg" class="downward-arrow" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-lg-0 pt-5 col-sm-6 offset-sm-3 offset-lg-0">
+                    <div class="card border-0 rounded-0 shadow p-3 position-relative"
+                        onmouseover="toggleCard(this, true)" onmouseout="toggleCard(this, false)">
+                        <div class="card-body">
+                            <p class="text-center">How do reviews<br>work??</p>
+                        </div>
+                        <img src="./images/downwardArrow.svg" class="downward-arrow" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Event insights -->
+    <section class="py-5 event-insights">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-7">
+                    <h3 class="all-facilities-text text-center text-lg-start">News, events and insights for you</h3>
+                </div>
+                <div class=" col-lg-5">
+                    <div class=" d-flex justify-content-lg-end justify-content-center">
+                        <p class="mb-0 see-more">see more<span class="ps-2"><img src="./images/XMLID 1506.svg"></span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 d-flex">
+                    <div class="card border-0 rounded-0 shadow">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./images/googleCEO.svg" class="w-100 ro" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="py-3 text-center text-lg-start">
+                                    <h2>Google I / O 2020 news update</h2>
+                                    <p class=" fw-lighter mb-0"><small>Out of concern for the health and safety of
+                                            our
+                                            developers,
+                                            employees, and local
+                                            communities — and in line with recent ...</small></p>
+                                    <img src="./images/Author.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4">
+                    <div class="card border-0 rounded-0 shadow">
+                        <img src="./images/minimalSpace.svg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body pt-1 text-center text-lg-start">
+                            <p class="fs-6 mb-0">Minimal workspace for inspirations</p>
+                            <p class="text-muted mb-0"><small>Anthony Masional</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 shadow">
+                        <img src="./images/productivity.svg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body pt-1 text-center text-lg-start">
+                            <p class="fs-6 mb-0">Does productivity increase when working remotely ? </p>
+                            <p class="text-muted mb-0"><small>Franck Martin</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 shadow">
+                        <img src="./images/group.svg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body pt-1 text-center text-lg-start">
+                            <p class="fs-6 mb-0">Morning routine to boost your mood</p>
+                            <p class="text-muted mb-0"><small>Elizabeth swan</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 shadow">
+                        <img src="./images/coWorkingSpace.svg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body pt-1 text-center text-lg-start">
+                            <p class="fs-6 mb-0">5+ tips to find comfortable co-working space</p>
+                            <p class="text-muted mb-0"><small>Mykola Ilschenko</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Become a member section -->
+    <section class="pt-5 member-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class=" py-3 d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <p class="mb-0 pe-3 text-white">Became a member</p>
+                        <p class="member-line rounded-3 mb-0"></p>
+                    </div>
+                    <div>
+                        <h1 class="text-white text-center text-lg-start">Ready to try different work experience now?
+                        </h1>
+                        <p class="text-white text-center text-lg-start">Get the best working experience that you never
+                            feel before</p>
+                    </div>
+                    <div class="text-lg-start text-center">
+                        <button type="button" class="btn signupNow-btn py-2 rounded-0 text-white shadow">Sign up
+                            Now</button>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-center position-relative pt-lg-0 pt-5">
+                        <img src="./images/Pattern.svg" class="w-75" alt="">
+                        <img src="./images/human.svg" class="human w-75" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="py-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="text-white text-center text-lg-start">Frispes</h2>
+                    <p class="text-white fw-lighter text-center text-lg-start">We offer comfortable spaces,
+                        cozy<br>cafe, high-speed internet,
+                        spacious parking
+                        area and many more
+                        for<br>your best workspaces and meetings</p>
+                    <div class="icons justify-content-lg-start justify-content-center">
+                        <img src="./images/Instagram (filled).svg" alt="">
+                        <img src="./images/youtube.svg" alt="">
+                        <img src="./images/Facebook.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="text-center text-lg-start pt-5 pt-lg-0">
+                                <h6 class="fw-lighter text-white">Spaces</h6>
+                                <p class="text-white"><small>Co-working spaces</small></p>
+                                <p class="text-white"><small>Meeting rooms</small></p>
+                                <p class="text-white"><small>Event spaces</small></p>
+                                <p class="text-white"><small>Child playground</small></p>
+                                <p class="text-white"><small>Cafe & resto</small></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="text-center text-lg-start pt-5 pt-lg-0">
+                                <h6 class="fw-lighter text-wchildhite">Company</h6>
+                                <p class="text-white"><small>About Us</small></p>
+                                <p class="text-white"><small>Pricing</small></p>
+                                <p class="text-white"><small>Careers</small></p>
+                                <p class="text-white"><small>Press</small></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="text-center text-lg-start pt-5 pt-lg-0">
+                                <h6 class="fw-lighter text-white">Support</h6>
+                                <p class="text-white"><small>FAQs</small></p>
+                                <p class="text-white"><small>Privacy Policy</small></p>
+                                <p class="text-white"><small>Help</small></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-center text-lg-start pt-5 pt-lg-0">
+                                <h6 class="fw-lighter text-white">Contact Us</h6>
+                                <p class="text-white"><small>E. Hello@frispes.com</small></p>
+                                <p class="text-white"><small>A. Jalan Jayakatwang No.301
+                                        Ngasem, Kediri</small></p>
+                                <p class="text-white"><small>P. (+62) 82334670000</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slick Slider -->
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="./JS/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+
+    <!-- JavaScript -->
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
